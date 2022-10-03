@@ -1,0 +1,22 @@
+#GrimacBungee
+#Made by caminoh
+
+#indice:
+# %FlaggedPlayer% == presunto hacker
+# %Flag% == ragione del flag
+# %FlagCheck% == numero dei check
+# %Server% == server
+# %Ping% == ping del client
+# %Version% == versione del client
+
+alert: "Player: %FlaggedPlayer% flagged for %Flag% for %FlagCheck% times on server %Server%. info: \n Ping: %Ping% \n Version: %Version%"
+
+onJoinMessage: "Alerts enabled!"
+
+alertsALL: "You will now receive alerts from all the servers" #alerts ricevuti in tutti i server
+alertsCURRENT: "You will now receive alerts only from your server" #alerts ricevuti solo dal proprio server
+alertsDISABLED: "You wont receive alerts" #alerts non ricevuti
+
+server_name: "server_name"
+
+MaxViolations: 20.0 # quantità massima di messaggi da ricevere per ogni player

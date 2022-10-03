@@ -1,0 +1,5 @@
+name: GrimBungee
+version: '${project.version}'
+main: GrimBungee.Core
+depend: [ GrimAC ]
+authors: [ caminoh_ ]
